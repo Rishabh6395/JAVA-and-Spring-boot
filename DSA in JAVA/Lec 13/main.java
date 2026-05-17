@@ -13,7 +13,7 @@ public class main {
         // arr = new int[5];
 
         // init
-        int brr[] = {1,2,3};
+        // int brr[] = {1,2,3};
         // System.out.println("single value priniting: "+brr[1]);
 
         // for(int i = brr.length - 1; i >= 0; i--){
@@ -59,19 +59,40 @@ public class main {
 
         // FIND MAXIMUM ELEMENT IN AN ARRAY:
 
-        int arr[] = {1,234,232,12,-12, 2,76,34};
+        // int arr[] = {1,234,232,12,-12, 2,76,34};
 
-        int maxi = arr[0];
+        // int maxi = arr[0];
 
-        for(int i = 0; i<= arr.length -1; i++){
-            if(arr[i] > maxi){
-                maxi = arr[i];
+        // for(int i = 0; i<= arr.length -1; i++){
+        //     if(arr[i] > maxi){
+        //         maxi = arr[i];
+        //     }
+        // }
+        // System.out.println(maxi);
+
+
+
+        // 2D ARRAY:
+
+        int [][] arr;
+        
+        arr = new int[3][4];
+
+        int[][] brr = {
+            {1,2},
+            {3,4},
+            {4,5},
+            {5,6},
+        };
+
+        // System.out.println(brr[2][1]);
+
+        for(int i =0; i<=3; i++){
+            for(int j=0; j<=1; j++){
+                System.out.print(brr[i][j]+ " ");
             }
+            System.out.println();
         }
-        System.out.println(maxi);
-
-
-
 
 
     }

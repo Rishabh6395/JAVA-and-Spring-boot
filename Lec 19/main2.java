@@ -8,15 +8,24 @@ public class main2 {
 
         Outer.Inner inner = outer.new Inner();
         inner.fun();
+        inner.fun2();
+        Outer.Inner.fun2();
     }
 }
 
 
 class Outer {
-
+    int x = 10;
     class Inner{
+
+        int x = 20;
         void fun(){
-            System.out.println("Hiiii");
+            System.out.println(x);
+            System.out.println(Outer.this.x);
+        }
+
+        static void fun2(){
+            System.out.println("Hello");
         }
     }
 }

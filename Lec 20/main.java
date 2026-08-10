@@ -4,6 +4,7 @@
     2. OutputStream -> used for write();
 */
 import java.io.*;
+import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) throws IOException {
@@ -13,7 +14,15 @@ public class main {
         InputStreamReader isr = new InputStreamReader(System.in);
 
         BufferedReader bfr = new BufferedReader(isr);
-        String name = bfr.readLine();
-        System.out.println(name);
+        // String name = bfr.readLine();
+        // System.out.println(name);
+
+        Scanner sc = new Scanner(System.in);
+        String Newname = sc.nextLine();
+        int age = sc.nextInt();
+
+        System.out.println(Newname);
+        System.out.println(age);
+
     }
 }

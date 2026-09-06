@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 23" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 26" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lec 9" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="DSA in JAVA" />
+  </component>
+</module>

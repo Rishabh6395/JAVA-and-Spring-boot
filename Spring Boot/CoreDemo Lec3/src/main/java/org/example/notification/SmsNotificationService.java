@@ -1,4 +1,9 @@
 package org.example.notification;
 
-public class SmsNotificationService {
+public class SmsNotificationService  implements  NotificationService{
+
+    @Override
+    public void sendNotification(){
+        System.out.println("Sent Notification via SMS");
+    }
 }

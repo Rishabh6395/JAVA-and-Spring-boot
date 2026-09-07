@@ -1,7 +1,9 @@
-package org.example;
+package org.example.notification;
 
-public class EmailService {
+public class EmailService implements  NotificationService{
+
+    @Override
     public void sendNotification(){
-        System.out.println("Sent Notification");
+        System.out.println("Sent Notification by email");
     }
 }

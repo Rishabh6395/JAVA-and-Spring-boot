@@ -1,15 +1,25 @@
-package org.example.notification;
+package org.example;
+
+import org.example.notification.NotificationService;
 
 public class OrderService {
 
-    NotificationService nofification;
+    NotificationService notification;
 
-    public OrderService(NotificationService notification){
-        this.nofification = notification;
+    public OrderService(NotificationService notiii){
+        this.notification = notiii;
+    }
+
+    public OrderService(){
+
     }
 
     public void placeOrder() {
         System.out.println("Order Placed");
-        nofification.sendNotification();
+        notification.sendNotification();
+    }
+
+    public void setNotification(NotificationService notification) {
+        this.notification = notification;
     }
 }
